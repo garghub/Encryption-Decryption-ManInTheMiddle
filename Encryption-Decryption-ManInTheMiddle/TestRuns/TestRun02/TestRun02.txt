@@ -1,0 +1,177 @@
+
+Main Menu:
+ 
+1. Generate Keys (Elgamal Algorithm) 
+2. Encrypt Message (Requires Reciever's Public Key) 
+3. Decrypt Message (Requires Receiver's Private Key) 
+4. Break Encryption & Decipher Message (Baby Step Giant Step Algorithm) 
+0. Exit 
+Please enter a digit corresponding to the step
+
+(e.g. 1/2/../0): asd
+
+Invalid Input entered! Please retry.
+
+Main Menu:
+ 
+1. Generate Keys (Elgamal Algorithm) 
+2. Encrypt Message (Requires Reciever's Public Key) 
+3. Decrypt Message (Requires Receiver's Private Key) 
+4. Break Encryption & Decipher Message (Baby Step Giant Step Algorithm) 
+0. Exit 
+Please enter a digit corresponding to the step
+
+(e.g. 1/2/../0): 2
+
+Reading Public Key from file...
+
+Searching File...
+File not found in the directory!
+
+Since the Keys file is not found please generate the Keys using the Main Menu Option 1
+Exiting to the main menu...
+
+Main Menu:
+ 
+1. Generate Keys (Elgamal Algorithm) 
+2. Encrypt Message (Requires Reciever's Public Key) 
+3. Decrypt Message (Requires Receiver's Private Key) 
+4. Break Encryption & Decipher Message (Baby Step Giant Step Algorithm) 
+0. Exit 
+Please enter a digit corresponding to the step
+
+(e.g. 1/2/../0): 1
+
+Generating Keys...
+
+Keys:
+ Public Key (g,c,p): (53327, 5373872, 7174061) 
+ Private Key: 292241
+
+Writing to file...
+Successfully written.
+
+Main Menu:
+ 
+1. Generate Keys (Elgamal Algorithm) 
+2. Encrypt Message (Requires Reciever's Public Key) 
+3. Decrypt Message (Requires Receiver's Private Key) 
+4. Break Encryption & Decipher Message (Baby Step Giant Step Algorithm) 
+0. Exit 
+Please enter a digit corresponding to the step
+
+(e.g. 1/2/../0): 2
+
+Reading Public Key from file...
+
+Searching File...
+File found.
+
+Reading from file...
+Successfully read.
+
+
+Please enter the digits to be encrypted, smaller than 7174061: 7654321
+
+Invalid Input Entered, please retry.
+
+
+Please enter the digits to be encrypted, smaller than 7174061: 7174061
+
+Invalid Input Entered, please retry.
+
+
+Please enter the digits to be encrypted, smaller than 7174061: adbc
+
+Invalid Input Entered, please retry.
+
+
+Please enter the digits to be encrypted, smaller than 7174061: 7174060
+Generated Encrypted Message: 1199289
+Generated Header: 1941848
+
+Writing to file...
+Successfully written.
+
+Main Menu:
+ 
+1. Generate Keys (Elgamal Algorithm) 
+2. Encrypt Message (Requires Reciever's Public Key) 
+3. Decrypt Message (Requires Receiver's Private Key) 
+4. Break Encryption & Decipher Message (Baby Step Giant Step Algorithm) 
+0. Exit 
+Please enter a digit corresponding to the step
+
+(e.g. 1/2/../0): 3
+
+Reading Encrypted Message from file...
+
+Searching File...
+File found.
+
+Reading from file...
+Successfully read.
+
+Reading Private Key from file...
+
+Searching File...
+File found.
+
+Reading from file...
+Successfully read.
+
+Decrypted Original Message: 7174060
+
+Main Menu:
+ 
+1. Generate Keys (Elgamal Algorithm) 
+2. Encrypt Message (Requires Reciever's Public Key) 
+3. Decrypt Message (Requires Receiver's Private Key) 
+4. Break Encryption & Decipher Message (Baby Step Giant Step Algorithm) 
+0. Exit 
+Please enter a digit corresponding to the step
+
+(e.g. 1/2/../0): 4
+
+If your listening to somebody's conversation as a Man In The Middle and wish to break an encrypted message,
+you must have the knowledge of encrypted message and the header sent to the Reciever.
+
+Reading Encrypted Message from file...
+
+Searching File...
+File found.
+
+Reading from file...
+Successfully read.
+
+The public key of the Receiver is required to break an encryption.
+The Public Keys are usually publicly available via Key Hosting Services.
+
+Reading Public Key from file...
+
+Searching File...
+File found.
+
+Reading from file...
+Successfully read.
+
+Breaking Encyption (using Baby Step Giant Step Algorithm)...
+
+Cracked Original Message: 7174060
+
+Main Menu:
+ 
+1. Generate Keys (Elgamal Algorithm) 
+2. Encrypt Message (Requires Reciever's Public Key) 
+3. Decrypt Message (Requires Receiver's Private Key) 
+4. Break Encryption & Decipher Message (Baby Step Giant Step Algorithm) 
+0. Exit 
+Please enter a digit corresponding to the step
+
+(e.g. 1/2/../0): 0
+
+Exiting...
+
+Thank you! 
+Python project on Encryption, Decryption and Man-In-The-Middle attack implementation 
+submitted by Aayush Garg aayushgarg.bu@gmail.com

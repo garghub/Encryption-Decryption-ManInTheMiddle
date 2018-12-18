@@ -1,2 +1,0 @@
-# PytPro
-Python project(s)
